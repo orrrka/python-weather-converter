@@ -28,8 +28,3 @@ def conversion(temp):
 
 
 print(conversion(temp))
-
-
-
-print(conversion(temperature))
-
