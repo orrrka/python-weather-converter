@@ -1,4 +1,4 @@
-temp = str(input("Hello! \nInsert the temperature you would like to convert:"))
+temp = input("Hello! \nInsert the temperature you would like to convert:")
 
 def conversion(temp):
     if len(temp)<2:
