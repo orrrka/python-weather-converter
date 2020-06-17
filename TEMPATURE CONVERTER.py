@@ -8,7 +8,7 @@ def conversion(temperature):
         number = float(num)
         conversion = str((number*9+160)/5)
         return conversion+"F"
-    elif "c" in tempature:
+    elif "c" in temperature:
         num=temperature.replace("c" , "")
         number = float(num)
         conversion = str((number*9+160)/5)
@@ -28,5 +28,4 @@ def conversion(temperature):
 
 
 print(conversion(temperature))
-
 
